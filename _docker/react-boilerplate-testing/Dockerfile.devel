@@ -1,0 +1,5 @@
+FROM node
+
+WORKDIR /app
+
+RUN bash -l -c "npm set progress=false"
