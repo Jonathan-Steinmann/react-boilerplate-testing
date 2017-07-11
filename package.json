@@ -42,7 +42,8 @@
     "test:clean": "rimraf ./coverage",
     "test": "cross-env NODE_ENV=test jest --coverage",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "lint-staged": {
     "*.js": "lint:eslint"
@@ -244,6 +245,7 @@
     "whatwg-fetch": "2.0.1"
   },
   "devDependencies": {
+    "@storybook/react": "^3.1.8",
     "babel-cli": "6.18.0",
     "babel-core": "6.21.0",
     "babel-eslint": "7.1.1",
