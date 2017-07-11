@@ -1,0 +1,25 @@
+exports[`getEvent Saga should call the CALL_API_ERROR action if the response errors 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "http://api-app.espn.com//v1/sports/baseball/mlb/events/320328111",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`getEvent Saga should dispatch the CALL_API_SUCCESS action if it requests the data successfully 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "http://api-app.espn.com//v1/sports/baseball/mlb/events/320328111",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
