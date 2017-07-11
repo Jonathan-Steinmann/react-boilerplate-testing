@@ -14,6 +14,28 @@
 
 Now you're ready to rumble!
 
+## Setup Dev Environment
+
+### Set up (local)
+
+  1. Install Node / NPM
+
+### Set up (Docker)
+
+  1. Install Docker
+  2. `$ dev-scripts/start_env.sh`
+  3. `$ dev-scripts/ssh_env.sh`
+    
+You are now in a shell in the Docker container. Proceed to the application specific setup section.
+
+### Set up (application specific)
+
+    $ npm install
+    $ npm run build:dll
+    $ npm run start
+
+Visit http://localhost:3000
+
 ## Reference
 
 Here is a <a href="https://vimeo.com/168648012">video</a> on how to structure your React.js apps with scalability in mind. It provides rationale for the majority of boilerplate's design decisions.
