@@ -16,11 +16,11 @@ Now you're ready to rumble!
 
 ## Setup Dev Environment
 
-# Set up (local)
+### Set up (local)
 
   1. Install Node / NPM
 
-# Set up (Docker)
+### Set up (Docker)
 
   1. Install Docker
   2. `$ dev-scripts/start_env.sh`
@@ -28,7 +28,7 @@ Now you're ready to rumble!
     
 You are now in a shell in the Docker container. Proceed to the application specific setup section.
 
-# Set up (application specific)
+### Set up (application specific)
 
     $ npm install
     $ npm run build:dll
