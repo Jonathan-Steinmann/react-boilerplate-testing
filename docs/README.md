@@ -39,7 +39,7 @@
     npm run setup && npm start
     ```
 
-1. Open [localhost:3000](http://localhost:3000) to see it in action.
+1. Open [localhost:3001](http://localhost:3001) to see it in action.
 
     - Add a Github username to see Redux and Redux Sagas in action: effortless
       async state updates and side effects are now yours :)
@@ -61,7 +61,7 @@
 
 ### Development
 
-Run `npm start` to see your app at `localhost:3000`
+Run `npm start` to see your app at `localhost:3001`
 
 ### Building & Deploying
 
