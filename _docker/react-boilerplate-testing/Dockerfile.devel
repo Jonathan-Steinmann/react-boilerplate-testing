@@ -3,3 +3,7 @@ FROM node
 WORKDIR /app
 
 RUN bash -l -c "npm set progress=false"
+RUN apt-get update
+
+# Thanks jpegtran-bin: https://github.com/imagemin/jpegtran-bin/issues/9#issuecomment-312239747
+RUN apt-get install -y nasm
