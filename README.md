@@ -25,7 +25,7 @@ You are now in a shell in the Docker container. Proceed to the application speci
     $ npm run build:dll
     $ npm run start
 
-Visit http://localhost:3001
+Visit http://localhost:3333
 
 ## Reference
 
